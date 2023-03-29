@@ -3,10 +3,8 @@ import Products from '../features/Products';
 import SearchProduct from '../components/SearchProduct';
 import { useState } from 'react';
 import Modal from '../components/Modal';
-import { productsApi } from '../services/ProductsService';
 
 function App() {
-  const{data: products}= productsApi.useFetchProductsQuery()
   const [searchParams, setSearchParams] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const handleSearch = (event: any) => {
