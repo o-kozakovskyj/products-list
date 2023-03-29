@@ -6,12 +6,6 @@ import App from './app/App';
 import './index.scss';
 import {
   BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-  NavLink,
-  useNavigate,
-  createSearchParams,
 } from 'react-router-dom';
 const container = document.getElementById('root')!;
 const root = createRoot(container);
