@@ -1,0 +1,17 @@
+.search {
+  flex-grow: 1;
+  margin: 10px;
+  font-size: calc(6px + 1vw);
+  &__input {
+    width:100%;
+    padding: 12px;
+    border: 1px solid #55989a;
+    outline: none;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-size: inherit;
+    &:hover {
+        border: 1px solid #4a8c8d;
+      }
+  }
+}

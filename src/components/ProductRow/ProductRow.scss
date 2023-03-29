@@ -1,0 +1,18 @@
+.products__row {
+  cursor: pointer;
+}
+.product__row-item-id {
+  max-width: 60px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.products__row-button {
+  border: none;
+  font-weight: 600;
+  background-color: transparent;
+  cursor: pointer;
+  &:hover {
+    color: #55989a;
+  }
+}
