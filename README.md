@@ -11,9 +11,9 @@
 - As a user, I want to delete a product
 !!!Important: The list of products changes on server after deleting a product. But API recovers the data. So, if you delete a product, you can see it again after refreshing the page.
 !!! APi adds all products to the list with id=101 & cant delete them. So, if you add a product, you can`t delete them.
-
-## Available Scripts
-In the project directory, you can run:
+### How to run:
 ### `npm start`
+#### [Site Link](https://products-li.netlify.app/)
+##### Author: [Oleksij Kozakovskyj](https://github.com/o-kozakovskyj)
 
 
